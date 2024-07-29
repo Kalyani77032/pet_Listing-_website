@@ -11,7 +11,7 @@ Table of Contents
 - [Usage](#usage)
 - [Project Structure](#project-structure)
 - [API Endpoints](#api-endpoints)
-- [Available Script(#available-scripts)
+- [Available Script](#available-scripts)
 - [License](#license)
 
 #Features
