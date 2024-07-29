@@ -14,7 +14,7 @@ Table of Contents
 - [Available Script](#available-scripts)
 - [License](#license)
 
-#Features
+# Features
 
 - List and view details of pets
 - Search pets by animal type, location, and breed
