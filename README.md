@@ -11,7 +11,7 @@ Table of Contents
 - [Usage](#usage)
 - [Project Structure](#project-structure)
 - [API Endpoints](#api-endpoints)
-- [Available Scripts](#available-scripts)#L(
+- [Available Script(#available-scripts)
 - [License](#license)
 
 #Features
@@ -38,6 +38,7 @@ git clone https://github.com/Kalyani77032e/pet-listing.git
 npm install 
 3.Create a .env file in the root directory and add the following:
 VITE_API_BASE_URL=http://pets-v2.dev-apis.com
+
 #usage
 1.Start the development server:
 npm run dev
@@ -67,10 +68,11 @@ pet-listing/
 ├── package.json
 ├── vite.config.js
 └── README.md
+
 Explanation of Project Structure
-public/: Contains static assets.
-src/: Contains the main source code for the application.
-components/: Contains React components used throughout the application.
+1.public/: Contains static assets.
+2.src/: Contains the main source code for the application.
+3.components/: Contains React components used throughout the application.
 ErrorBoundary.js: Handles errors gracefully by displaying a fallback UI.
 PetDetails.js: Displays details of a selected pet.
 PetList.js: Displays a list of pets.
@@ -85,6 +87,8 @@ index.css: Main stylesheet for the application.
 App.js: Main application component.
 index.js: Entry point of the application.
 .env: Environment variables configuration file.
+
+
 #API Endpoints
 List of Pets:
 
@@ -111,6 +115,8 @@ npm run build: Builds the app for production to the dist folder.
 npm run serve: Serves the production build locally.
 npm run lint: Runs ESLint to lint the code.
 npm run format: Runs Prettier to format the code.
+
+
 #License
 This project is licensed under the MIT License.
 This `README.md` file provides clear instructions on setting up and running the project, a detailed project structure,etc Make sure to replace `https://github.com/Kalyani77032/pet_listing_website.git` with the actual URL of your GitHub repository.
