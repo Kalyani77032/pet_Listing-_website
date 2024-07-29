@@ -39,12 +39,15 @@ npm install
 3.Create a .env file in the root directory and add the following:
 VITE_API_BASE_URL=http://pets-v2.dev-apis.com
 
-#usage
+# usage
 1.Start the development server:
 npm run dev
+
 2.open your browser and navigate to:
 http://localhost:5173
-#project structure 
+
+# project structure 
+
 pet-listing/
 ├── public/
 ├── src/
@@ -89,7 +92,7 @@ index.js: Entry point of the application.
 .env: Environment variables configuration file.
 
 
-#API Endpoints
+# API Endpoints
 List of Pets:
 
 URL: http://pets-v2.dev-apis.com/pets
@@ -107,7 +110,7 @@ Search API:
 URL: http://pets-v2.dev-apis.com/pets?animal=${animal}&location=${location}&breed=${breed}
 Description: Searches for pets based on animal type, location, and breed.
 
-#Available Scripts
+# Available Scripts
 In the project directory, you can run:
 
 npm run dev: Starts the development server.
@@ -117,6 +120,6 @@ npm run lint: Runs ESLint to lint the code.
 npm run format: Runs Prettier to format the code.
 
 
-#License
+# License
 This project is licensed under the MIT License.
 This `README.md` file provides clear instructions on setting up and running the project, a detailed project structure,etc Make sure to replace `https://github.com/Kalyani77032/pet_listing_website.git` with the actual URL of your GitHub repository.
